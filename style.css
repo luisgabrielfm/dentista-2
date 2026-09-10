@@ -5,3 +5,12 @@
 /* Identidade BN: monograma vetorial e assinatura tipográfica. */
 .brand{gap:14px}.brand .brand-symbol{width:56px;height:59px;object-fit:contain;flex:none}.brand .signature{font-size:21px}.brand .signature em{font-family:Georgia,serif;font-size:12px;font-style:normal;display:block;margin-bottom:3px}.brand small{font-size:9px;letter-spacing:.06em}.brand .signature{white-space:nowrap}
 @media(max-width:760px){.brand{gap:10px}.brand .brand-symbol{width:45px;height:49px}.brand .signature{font-size:18px}.brand small{font-size:8px}.brand .signature em{font-size:11px}}
+
+/* Hero mobile: texto sobre a foto, preservando o enquadramento das duas pessoas. */
+@media(max-width:760px){
+.hero{min-height:660px;padding-top:0;background:#26382b}
+.hero>img{height:clamp(450px,115vw,580px);object-position:35% top;object-fit:cover}
+.hero:after{background:linear-gradient(to bottom,rgba(38,56,43,.06) 0px,rgba(38,56,43,.20) 150px,rgba(38,56,43,.72) 330px,#26382b clamp(450px,115vw,580px));pointer-events:none}
+.hero-copy{padding:225px 0 55px}
+.hero h1{font-size:clamp(40px,11vw,49px)}
+}
