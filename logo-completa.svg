@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 100" role="img" aria-label="Dra. Beatriz Negreiros, Cirurgiã-Dentista, CRO/RN 8516">
+<g transform="translate(0 3)"><g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M17 15V61M12 15H30C48 15 49 36 30 37H17M30 37C51 37 51 61 30 61H12" stroke="#374437" stroke-width="2.8"/>
+<path d="M43 61V16L68 61V16M39 16H47M64 16H72M39 61H47" stroke="#374437" stroke-width="2.2"/>
+<path d="M18 71Q42 82 67 69" stroke="#ae915e" stroke-width="1.7"/>
+</g></g>
+<path d="M100 23V78" stroke="#ae915e" stroke-width=".8"/>
+<text x="123" y="31" fill="#374437" font-family="Georgia,serif" font-size="14">Dra.</text>
+<text x="121" y="59" fill="#374437" font-family="Georgia,serif" font-size="33">Beatriz Negreiros</text>
+<text x="123" y="81" fill="#374437" font-family="Arial,sans-serif" font-size="11" letter-spacing="1">Cirurgiã-Dentista · CRO/RN 8516</text></svg>
